@@ -7,3 +7,13 @@ Elastic_Artifacts_Registry_Download_v1 => Download Full Fledge from Elastic
 Backup_Logstash_Pipeline_v1 => To Backup Centrallised Logstash Pipeline Via API Call
 
 Step to do before using Backup_Logstash_Pipeline_v1 script
+Create API Key for this script
+POST /_security/api_key
+{
+  "name": "logstash_pipeline_backup_key",
+  "role_descriptors": {
+    "logstash_pipeline_role": {
+      "cluster": ["manage_logstash_pipelines"]
+    }
+  }
+}
