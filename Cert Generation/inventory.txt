@@ -1,0 +1,3 @@
+SG:SG:Singapore:Cyberlab
+TestServer:TestServer.cyberlab.local:192.168.1.3:192.168.2.9
+TestServer2:TestServer2.cyberlab.local:TestServer3:TestServer3.cyberlab.local:192.168.1.3:192.168.2.9:192.168.11.2
